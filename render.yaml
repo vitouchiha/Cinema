@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: stremio-al-cinema
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node addon.js
+    envVars:
+      - key: TMDB_API_KEY
+        sync: false
+      - key: NODE_ENV
+        value: production

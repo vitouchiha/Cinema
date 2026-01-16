@@ -1,0 +1,21 @@
+{
+  "name": "stremio-al-cinema",
+  "version": "1.0.0",
+  "description": "Stremio addon per film AL CINEMA da TMDB",
+  "main": "addon.js",
+  "scripts": {
+    "start": "node addon.js",
+    "dev": "node addon.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "stremio-addon-sdk": "^1.6.9"
+  },
+  "keywords": ["stremio", "addon", "tmdb", "al-cinema"],
+  "author": "Vito Spagnuolo",
+  "license": "MIT"
+}
