@@ -1,32 +1,9 @@
 {
   "name": "cinemanello",
   "version": "1.0.0",
-  "description": "Kodi/Stremio Addon personalizzato - Film catalogo",
-  "main": "api/addon.js",
   "type": "module",
   "scripts": {
     "dev": "vercel dev",
-    "build": "echo 'No build needed'",
-    "start": "node api/addon.js",
-    "deploy": "vercel --prod",
-    "test": "curl http://localhost:3000/status"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "keywords": [
-    "kodi",
-    "stremio",
-    "addon",
-    "streaming",
-    "movies"
-  ],
-  "author": "vitouchiha",
-  "license": "MIT",
-  "dependencies": {
-    "@vercel/node": "^3.2.7"
-  },
-  "devDependencies": {
-    "vercel": "^37.0.0"
+    "deploy": "vercel --prod"
   }
 }
